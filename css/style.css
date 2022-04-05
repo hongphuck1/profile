@@ -1,0 +1,79 @@
+.my-info {
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    margin: 60px 0 20px;
+}
+
+.my-info .info-content {
+    border: 1px solid transparent;
+    border-right-color: #bcbcbc;
+}
+
+
+.info-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+
+.info-avatar {
+    width: 160px;
+    height: 160px;
+    background-image: url(../img/logo__phuc2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    /* margin: 70px; */
+    border-radius: 10px;
+    /* padding: 10px; */
+    margin: 20px 20px;
+}
+
+.info-in4 {
+    height: 100%;
+    width: 50%;
+}
+
+.info__name {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: 15px 0 10px;
+}
+
+.info__student {
+    font-size: 1.6rem;
+}
+
+.info-contact {
+    flex-grow: 1;
+    padding: 12px;
+}
+
+.info-social {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.info-social a {
+    text-decoration: none;
+}
+
+.contact-item {
+
+    margin: 20px;
+}
+
+.contact-name {
+    font-size: 1.7rem;
+    color: #847d7d;
+    font-weight: 700;
+}
+
+.contact-title {
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+}

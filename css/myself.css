@@ -1,0 +1,111 @@
+.myself {
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 10px;
+    padding: 30px;
+    user-select: none;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.myself__name {
+    font-size: 2.6rem;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+.myself__name::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -8px;
+    background: linear-gradient(90deg, #1e9600, #fff200, #ff0000);
+    height: 4px;
+    border-radius: 10px;
+}
+
+
+
+.myself__title {
+    margin: 30px 0;
+    line-height: 2.6rem;
+}
+
+.myself__title p {
+    font-size: 1.8rem;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+
+.myself__sp {
+    margin: 40px 0;
+    padding: 0 20px;
+
+}
+
+.sp__code {
+    padding-bottom: 20px;
+}
+
+.sp__img1 {
+    background: url(../img/shoppe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    transition: slidein 0.5s;
+    transition: slidein 0.5s;
+}
+
+.sp__img2 {
+    background: url(../img/doit.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    transition: slidein 0.5s;
+    transition: slidein 0.5s;
+}
+
+.sp__img3 {
+    background: url(../img/login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    transition: slidein 0.5s;
+    transition: slidein 0.5s;
+}
+
+.sp__img4 {
+    background: url(../img/last.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    transition: slidein 0.5s;
+    transition: slidein 0.5s;
+}
+
+.sp__img1:hover,
+.sp__img2:hover,
+.sp__img3:hover,
+.sp__img4:hover {
+    transform: scale(0.9);
+    transition: all 0.5s;
+}
+
+
+
+.sp__name {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 800;
+    font-size: 2rem;
+}

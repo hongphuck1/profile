@@ -1,0 +1,28 @@
+:root {
+    --color-facebook: #3B5998;
+    --color-tiktok: #111111;
+    --color-zalo: #0A68FE;
+    --color-youtube: #EA4335;
+    --color-email: rgb(69, 141, 218);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #6f86d6, #89f7fe);
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Nunito',
+        Arial,
+        Helvetica,
+        sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}

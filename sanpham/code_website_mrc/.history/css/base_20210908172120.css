@@ -1,0 +1,47 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: rgb(110, 109, 109);
+    --primary-color: #6EC1E4;
+    --primary-color-sub: #fd3f00;
+    --border-color: #dbdbdb;
+
+    --header: 109px;
+    --header-top: 36px;
+    --navbar-height: 27px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height)); 
+    --header-sort-bar-height: 46px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.no-copy__text {
+    user-select: none;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    
+    /* user-select: none;   không cho copy text */
+}
+
+body {
+    height: 5000px;
+}
+@media only screen and  (max-width: 1000px) and (min-width: 700px) {
+    html {
+    }
+}
+
+
+
+.carousel-item1 {
+
+    background-color: red;
+}

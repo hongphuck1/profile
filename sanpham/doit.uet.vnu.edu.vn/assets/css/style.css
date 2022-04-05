@@ -1,0 +1,382 @@
+.container {
+  background-color: black;
+  height: 365px;
+  position: relative;
+  padding-top: 68px;
+}
+
+.container-body {
+  /* margin-top: 68px; */
+  position: absolute;
+  width: 100%;
+  height: 82%;
+  background-image: url(../images/header_bg.jpg);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.container-center {
+  margin-left: 150px;
+}
+.container-center__name {
+  font-size: 4rem;
+  padding: 70px 0px 30px 0px;
+  font-weight: 300;
+  color: #fff;
+  user-select: none;
+}
+
+.container-center__title {
+  padding: 5px 0 5px 25px;
+  font-size: 2.5rem;
+  color: #fff;
+  user-select: none;
+}
+
+.container-center__title__icon {
+  font-size: 2.2rem;
+}
+
+.container-center__title__content {
+  padding-top: 5px;
+}
+
+.container-center__button {
+  text-align: center;
+  margin-top: 50px;
+}
+.container-center__click {
+  padding: 8px 30px;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: var(--primary);
+  background-color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.container-center__button:hover .container-center__click {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.content {
+  margin-top: 60px;
+}
+
+.content-namecheck {
+}
+
+.content-namecheck-logo {
+  margin-left: 20px;
+}
+
+.content-namecheck-logo__img {
+  width: 360px;
+  height: 160px;
+}
+
+.content-namecheck__title {
+  padding-bottom: 80px;
+  margin-left: 100px;
+  font-weight: 300;
+}
+
+.content-namecheck__title-name {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.content-namecheck__title-text {
+  font-size: 2.1rem;
+  line-height: 3rem;
+  color: #777;
+}
+
+.content-repair {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.tall {
+  margin: 15px 0;
+}
+hr {
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #dbdbdb,
+    transparent
+  );
+  border: 0;
+  height: 1px;
+}
+
+.content-repair-text {
+  margin-left: 24px;
+}
+
+.content-repair-text__name {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.content-repair-text__title {
+  font-size: 2.1rem;
+  line-height: 3rem;
+  color: #777;
+  width: 80%;
+  font-weight: 300;
+}
+
+.content-repair-logo {
+}
+
+.content-repair-logo__img {
+  margin-top: 40px;
+}
+
+.content-Introduce {
+  width: 100%;
+  background-color: #5974a3 !important;
+  margin-top: 20px;
+  padding: 20px 0;
+}
+
+.Introduce-doit {
+  margin-top: 20px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.Introduce-doit__name {
+  font-size: 3rem;
+  padding-bottom: 35px;
+  font-weight: 700;
+  padding-top: 40px;
+}
+
+.Introduce-doit__title {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  color: #e6e6e6;
+  padding-bottom: 80px;
+}
+
+.Introduce-doit__title p {
+  padding-bottom: 20px;
+}
+
+.Introduce-quantity {
+  padding-top: 70px;
+}
+
+.Introduce-quantity__name {
+  color: #fff;
+  padding: 22px;
+  text-align: center;
+  position: relative;
+}
+.tall__height {
+  position: relative;
+}
+.tall__height::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-left: 1px dashed #dadada;
+  height: 100%;
+}
+.tall__width {
+  position: relative;
+}
+.tall__width::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 1px dashed #dadada;
+  width: 100%;
+}
+
+.Introduce-quantity__name__number {
+  font-size: 5rem;
+
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.Introduce-quantity__name__date {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+.Introduce-quantity .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.Introduce-quantity .row .col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.content_industry {
+  padding: 20px 0;
+}
+
+.content_industry__name {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  color: #1d2128;
+  line-height: 70px;
+  padding-bottom: 30px;
+}
+.content_industry-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 35px;
+  margin-left: 20px;
+}
+
+.content_industry__icon {
+  width: 35px;
+  font-size: 1.4rem;
+  height: 35px;
+  color: var(--primary);
+  border: 1px solid #cecece;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 8px 1px rgb(1 1 1 / 20%);
+}
+
+.content_industry__title {
+  font-size: 2.1rem;
+  font-weight: 600;
+  padding-left: 12px;
+}
+
+.content-use {
+  padding: 50px 0;
+}
+
+.content-use__name {
+  text-align: center;
+  font-size: 3.3rem;
+  font-weight: 300;
+  color: #1d2128;
+  line-height: 40px;
+  padding-bottom: 30px;
+}
+
+.content-use__logo {
+  text-align: center;
+}
+
+.content-use__logo a {
+  text-decoration: none;
+}
+
+.content-use__logo img {
+  width: 155px;
+}
+
+.content-use__button {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.content-use__button__click {
+  background-color: #d6d6d6;
+  margin: 0 8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.content-use__button__click:hover {
+  background-color: #0074ad;
+}
+
+.content-use__button__click.content-use__button__click--prioritize {
+  background-color: #0074ad;
+}
+
+.content-support {
+  background-image: url(../images/swirl_pattern.png);
+}
+
+.content-support__question {
+  padding: 35px 0 70px;
+}
+
+.content-support__question__name {
+  text-align: center;
+  font-size: 3.6rem;
+  line-height: 4rem;
+  position: relative;
+}
+
+.content-support__question__name__link {
+  position: relative;
+  text-decoration: none;
+  color: forestgreen;
+  font-weight: 700;
+  display: inline-block;
+  transition: 0.4s;
+}
+
+.content-support__question__name__link:hover {
+  color: red;
+}
+
+.content-support__question-name {
+}
+
+.content-support__question-name-problem {
+  color: deepskyblue;
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  font-weight: 700;
+  padding: 0 85px;
+}
+
+.content-support__question-name-title {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  color: #777;
+  background-color: #ccc;
+  padding: 20px 66px;
+  border-radius: 10px;
+}
+.content-support__question-name-buttom {
+  position: relative;
+}
+
+.content-support__question-name-buttom-icon-top {
+  position: absolute;
+  font-size: 2.5rem;
+  top: 12px;
+  left: 12px;
+  color: #777;
+}
+
+.content-support__question-name-buttom-icon-btn {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  font-size: 2.5rem;
+  color: #777;
+}
