@@ -1,0 +1,262 @@
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+
+    .wide {
+        width: 900px;
+    }
+
+    .my-info {
+        margin-top: 20px;
+    }
+
+    .info-avatar {
+        width: 120px;
+        height: 120px;
+    }
+
+    .info-in4 {}
+
+    .info__name {
+        font-size: 1.8rem;
+    }
+
+    .info-social {
+        margin-top: 30px;
+    }
+
+    .social__item {
+        width: 36px;
+        height: 36px;
+        font-size: 1.4rem;
+    }
+
+    .contact-name {
+        font-size: 1.5rem;
+    }
+
+    .contact-title {}
+
+
+    .sidebar {
+        border-radius: 20px;
+    }
+
+    .sidebar__item {
+        width: 110px;
+        height: 90px;
+    }
+
+    .sidebar__link__icon {
+        width: 35% !important;
+        height: 50% !important;
+    }
+
+    .sidebar__name {
+        padding-top: 1px;
+    }
+
+    .myself {
+        border-radius: 20px;
+    }
+
+    .sp__img1 {
+        height: 177px;
+    }
+
+    .sp__img2 {
+        height: 177px;
+    }
+
+    .sp__img3 {
+        height: 177px;
+    }
+
+    .sp__name {
+        font-size: 1.8rem;
+    }
+
+    .sp__img4 {
+        height: 177px;
+    }
+}
+
+
+@media screen and (max-width: 739px) {
+    .wide {
+        width: 700px;
+    }
+
+    .my-info {
+        margin-top: 10px;
+    }
+
+    .info-avatar {
+        width: 120px;
+        height: 120px;
+    }
+
+    .info__name {
+        font-size: 2rem;
+    }
+
+    .info__student {
+        font-size: 1.2rem;
+    }
+
+    .info-social {
+        margin-top: 30px;
+    }
+
+    .social__item {
+        width: 30px;
+        height: 30px;
+        font-size: 1.4rem;
+    }
+
+    .contact-item {
+        margin: 6px;
+    }
+
+    .contact-name {
+        font-size: 1.3rem;
+    }
+
+    .sidebar__list {
+        flex-direction: inherit;
+    }
+
+    .sidebar__item {
+        display: inline-block;
+        margin: 10px;
+    }
+
+    .myself {
+        margin-top: 14px;
+    }
+
+    /* .sidebar__item.sidebar--active {
+        background: rgba(255, 255, 255, .55) !important;
+        box-shadow: 0 0 4px 0 rgb(1 1 1 / 20%);
+    } */
+    /* 
+    .sidebar__item:hover {
+        background: rgba(255, 255, 255, .55) !important;
+        box-shadow: 0 0 4px 0 rgb(1 1 1 / 20%);
+    } */
+
+    .sp__img1,
+    .sp__img2,
+    .sp__img3,
+    .sp__img4 {
+        height: 162px;
+    }
+
+    .sp__name {
+        font-size: 1.6rem;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .container {
+        /* overflow: hidden; */
+    }
+
+    .wide {
+        width: 350px;
+    }
+
+    .info-contact {
+        display: none;
+    }
+
+    .my-info {
+        margin-top: 10px;
+    }
+
+    .info-avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .info__name {
+        font-size: 2rem;
+    }
+
+    .info__student {
+        font-size: 1.4rem;
+    }
+
+    .info-social {
+        margin-top: 30px;
+    }
+
+    .social__item {
+        width: 30px;
+        height: 30px;
+        font-size: 1.4rem;
+        margin: 0 10px;
+    }
+
+    .contact-item {
+        margin: 6px;
+    }
+
+    .contact-name {
+        font-size: 1.3rem;
+    }
+
+    .sidebar__list {
+        flex-direction: inherit;
+        flex-wrap: wrap;
+    }
+
+    .sidebar__item {
+        display: inline-block;
+        margin: 10px;
+        width: 40%;
+        padding: 4px 0 10px;
+    }
+
+    .myself {
+        margin-top: 14px;
+    }
+
+    /* .sidebar__item.sidebar--active {
+            background: rgba(255, 255, 255, .55) !important;
+            box-shadow: 0 0 4px 0 rgb(1 1 1 / 20%);
+        } */
+    /* 
+        .sidebar__item:hover {
+            background: rgba(255, 255, 255, .55) !important;
+            box-shadow: 0 0 4px 0 rgb(1 1 1 / 20%);
+        } */
+
+    .sp__img1,
+    .sp__img2,
+    .sp__img3,
+    .sp__img4 {
+        height: 140px;
+    }
+
+    .sp__name {
+        font-size: 1.6rem;
+    }
+
+    .sidebar__link__icon {
+        width: 30px !important;
+        height: 30px Im !important;
+    }
+
+    .sidebar__name {
+        padding-top: 0px;
+    }
+
+    .myself__name {}
+
+    .Education__name {
+        font-size: 2.0rem;
+        ;
+        letter-spacing: 1.5px;
+    }
+}
