@@ -1,4 +1,4 @@
-.myself__box__link {
+/* .myself__box__link {
     margin-bottom: 15px;
     display: inline-block;
     text-decoration: none;
@@ -29,8 +29,6 @@
     position: relative;
     border-radius: 20px;
     padding: 10px;
-    /* overflow: hidden; */
-    /* height: 150px; */
 }
 
 .myself__box__img {
@@ -78,4 +76,4 @@
     font-weight: 700;
     text-align: center;
     padding: 10px;
-}
+} */
